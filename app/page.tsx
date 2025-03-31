@@ -53,7 +53,7 @@ export default function Home() {
         {/* Profile Image */}
         <div className="shrink-0">
           <Image
-            src="/me.jpg?height=250&width=250"
+            src="me.jpg?height=250&width=250"
             alt="Profile Picture"
             width={250}
             height={250}
