@@ -53,8 +53,7 @@ export default function Home() {
         {/* Profile Image */}
         <div className="shrink-0">
           <Image
-            src="me.jpg?height=250&width=250"
-            alt="Profile Picture"
+            src={`${process.env.NODE_ENV === 'production' ? '/portfolio' : ''}/me.jpg`}            alt="Profile Picture"
             width={250}
             height={250}
             className="rounded-md border-4 border-zinc-700 object-cover"
